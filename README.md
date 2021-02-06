@@ -11,12 +11,7 @@ e(aU,bV)=e(U,V)^{ab}
 # Installation of Miracl Library
 
 1. Visit https://github.com/miracl/core/tree/master/cpp and download the miracl/core zip file.
-2. To create a 32-bit library 
-python3 config32.py
-or To create a 32-bit library 
-python3 config64.py
-
+2. To create a 32-bit library python3 config32.py or To create a 64-bit library python3 config64.py
 3 Then select options 1, 3, 7, 28, 30, 36, 37 and 40, which are fixed for the example programs. (For a 16-bit build select 1, 4 and 6). Select 0 then to exit.
-
 4. For compilation of  Bilinear.cpp put this file in cpp folder and than open terminal and run this g++ -O2  Bilinear.cpp core.a -o bilinear
 5. ./bilinear
